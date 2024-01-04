@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="2" failed="0" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-02T10:27:05 IST" name="Regression Suite" finished-at="2024-01-02T10:27:43 IST" duration-ms="37920">
+    <groups>
+    </groups>
+    <test started-at="2024-01-02T10:27:05 IST" name="ChromeBrowser" finished-at="2024-01-02T10:27:42 IST" duration-ms="37771">
+      <class name="Verification.VerifyTheActiTime">
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:Verification.VerifyTheActiTime@738dc9b]" started-at="2024-01-02T10:27:05 IST" name="LaunchBrowser" finished-at="2024-01-02T10:27:06 IST" duration-ms="1734" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method is-config="true" signature="CreatePomObject()[pri:0, instance:Verification.VerifyTheActiTime@738dc9b]" started-at="2024-01-02T10:27:06 IST" name="CreatePomObject" finished-at="2024-01-02T10:27:06 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatePomObject -->
+        <test-method is-config="true" signature="LoginToApplication_1()[pri:0, instance:Verification.VerifyTheActiTime@738dc9b]" started-at="2024-01-02T10:27:06 IST" name="LoginToApplication_1" finished-at="2024-01-02T10:27:21 IST" duration-ms="14798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToApplication_1 -->
+        <test-method signature="VerifyTheTask()[pri:0, instance:Verification.VerifyTheActiTime@738dc9b]" started-at="2024-01-02T10:27:21 IST" name="VerifyTheTask" finished-at="2024-01-02T10:27:33 IST" duration-ms="11341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTheTask -->
+        <test-method is-config="true" signature="ClickOnLogout()[pri:0, instance:Verification.VerifyTheActiTime@738dc9b]" started-at="2024-01-02T10:27:33 IST" name="ClickOnLogout" finished-at="2024-01-02T10:27:33 IST" duration-ms="882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnLogout -->
+        <test-method is-config="true" signature="LoginToApplication_1()[pri:0, instance:Verification.VerifyTheActiTime@738dc9b]" started-at="2024-01-02T10:27:33 IST" name="LoginToApplication_1" finished-at="2024-01-02T10:27:34 IST" duration-ms="948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToApplication_1 -->
+        <test-method signature="VerifyTheReports()[pri:0, instance:Verification.VerifyTheActiTime@738dc9b]" started-at="2024-01-02T10:27:34 IST" name="VerifyTheReports" finished-at="2024-01-02T10:27:41 IST" duration-ms="6795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTheReports -->
+        <test-method is-config="true" signature="ClickOnLogout()[pri:0, instance:Verification.VerifyTheActiTime@738dc9b]" started-at="2024-01-02T10:27:41 IST" name="ClickOnLogout" finished-at="2024-01-02T10:27:42 IST" duration-ms="927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnLogout -->
+        <test-method is-config="true" signature="ClearPomObject()[pri:0, instance:Verification.VerifyTheActiTime@738dc9b]" started-at="2024-01-02T10:27:42 IST" name="ClearPomObject" finished-at="2024-01-02T10:27:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClearPomObject -->
+        <test-method is-config="true" signature="CloseTheBrowser()[pri:0, instance:Verification.VerifyTheActiTime@738dc9b]" started-at="2024-01-02T10:27:42 IST" name="CloseTheBrowser" finished-at="2024-01-02T10:27:42 IST" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseTheBrowser -->
+      </class> <!-- Verification.VerifyTheActiTime -->
+    </test> <!-- ChromeBrowser -->
+    <test started-at="2024-01-02T10:27:42 IST" name="FirefoxBrowser" finished-at="2024-01-02T10:27:43 IST" duration-ms="55">
+      <class name="Verification.VerifyTheActiTime">
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:Verification.VerifyTheActiTime@cb0755b]" started-at="2024-01-02T10:27:42 IST" name="LaunchBrowser" finished-at="2024-01-02T10:27:42 IST" duration-ms="16" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
+            <message>
+              <![CDATA[geckodriver located at D:\Program files\geckodriver.exe, but invalid
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: geckodriver located at D:\Program files\geckodriver.exe, but invalid
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: driver.version: FirefoxDriver
+at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:45)
+at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:142)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:133)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:128)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:113)
+at Browsers.Base.OpenFirefoxBrowser(Base.java:18)
+at Verification.VerifyTheActiTime.LaunchBrowser(VerifyTheActiTime.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method is-config="true" signature="CreatePomObject()[pri:0, instance:Verification.VerifyTheActiTime@cb0755b]" started-at="2024-01-02T10:27:42 IST" name="CreatePomObject" finished-at="2024-01-02T10:27:42 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatePomObject -->
+        <test-method is-config="true" signature="LoginToApplication_1()[pri:0, instance:Verification.VerifyTheActiTime@cb0755b]" started-at="2024-01-02T10:27:42 IST" name="LoginToApplication_1" finished-at="2024-01-02T10:27:42 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToApplication_1 -->
+        <test-method signature="VerifyTheTask()[pri:0, instance:Verification.VerifyTheActiTime@cb0755b]" started-at="2024-01-02T10:27:43 IST" name="VerifyTheTask" finished-at="2024-01-02T10:27:43 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
+            <message>
+              <![CDATA[geckodriver located at D:\Program files\geckodriver.exe, but invalid
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: geckodriver located at D:\Program files\geckodriver.exe, but invalid
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: driver.version: FirefoxDriver
+at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:45)
+at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:142)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:133)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:128)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:113)
+at Browsers.Base.OpenFirefoxBrowser(Base.java:18)
+at Verification.VerifyTheActiTime.LaunchBrowser(VerifyTheActiTime.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTheTask -->
+        <test-method is-config="true" signature="LoginToApplication_1()[pri:0, instance:Verification.VerifyTheActiTime@cb0755b]" started-at="2024-01-02T10:27:43 IST" name="LoginToApplication_1" finished-at="2024-01-02T10:27:43 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToApplication_1 -->
+        <test-method is-config="true" signature="ClickOnLogout()[pri:0, instance:Verification.VerifyTheActiTime@cb0755b]" started-at="2024-01-02T10:27:43 IST" name="ClickOnLogout" finished-at="2024-01-02T10:27:43 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnLogout -->
+        <test-method signature="VerifyTheReports()[pri:0, instance:Verification.VerifyTheActiTime@cb0755b]" started-at="2024-01-02T10:27:43 IST" name="VerifyTheReports" finished-at="2024-01-02T10:27:43 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
+            <message>
+              <![CDATA[geckodriver located at D:\Program files\geckodriver.exe, but invalid
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: geckodriver located at D:\Program files\geckodriver.exe, but invalid
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: driver.version: FirefoxDriver
+at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:45)
+at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:142)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:133)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:128)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:113)
+at Browsers.Base.OpenFirefoxBrowser(Base.java:18)
+at Verification.VerifyTheActiTime.LaunchBrowser(VerifyTheActiTime.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
+at org.testng.TestRunner.beforeRun(TestRunner.java:652)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTheReports -->
+        <test-method is-config="true" signature="ClearPomObject()[pri:0, instance:Verification.VerifyTheActiTime@cb0755b]" started-at="2024-01-02T10:27:43 IST" name="ClearPomObject" finished-at="2024-01-02T10:27:43 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClearPomObject -->
+        <test-method is-config="true" signature="ClickOnLogout()[pri:0, instance:Verification.VerifyTheActiTime@cb0755b]" started-at="2024-01-02T10:27:43 IST" name="ClickOnLogout" finished-at="2024-01-02T10:27:43 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnLogout -->
+        <test-method is-config="true" signature="CloseTheBrowser()[pri:0, instance:Verification.VerifyTheActiTime@cb0755b]" started-at="2024-01-02T10:27:43 IST" name="CloseTheBrowser" finished-at="2024-01-02T10:27:43 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseTheBrowser -->
+      </class> <!-- Verification.VerifyTheActiTime -->
+    </test> <!-- FirefoxBrowser -->
+  </suite> <!-- Regression Suite -->
+</testng-results>
